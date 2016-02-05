@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5159DF4C1C642D1A00EEBAFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DF4B1C642D1A00EEBAFA /* AppDelegate.swift */; };
+		5159DF4E1C642D1A00EEBAFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DF4D1C642D1A00EEBAFA /* ViewController.swift */; };
+		5159DF511C642D1A00EEBAFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5159DF4F1C642D1A00EEBAFA /* Main.storyboard */; };
+		5159DF531C642D1A00EEBAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5159DF521C642D1A00EEBAFA /* Assets.xcassets */; };
+		5159DF561C642D1A00EEBAFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5159DF541C642D1A00EEBAFA /* LaunchScreen.storyboard */; };
+		5159DF611C642D1A00EEBAFA /* PetometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DF601C642D1A00EEBAFA /* PetometerTests.swift */; };
+		5159DF6C1C642D1A00EEBAFA /* PetometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DF6B1C642D1A00EEBAFA /* PetometerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5159DF5D1C642D1A00EEBAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5159DF401C642D1A00EEBAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5159DF471C642D1A00EEBAFA;
+			remoteInfo = Petometer;
+		};
+		5159DF681C642D1A00EEBAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5159DF401C642D1A00EEBAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5159DF471C642D1A00EEBAFA;
+			remoteInfo = Petometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5159DF481C642D1A00EEBAFA /* Petometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5159DF4B1C642D1A00EEBAFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5159DF4D1C642D1A00EEBAFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5159DF501C642D1A00EEBAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5159DF521C642D1A00EEBAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5159DF551C642D1A00EEBAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5159DF571C642D1A00EEBAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5159DF5C1C642D1A00EEBAFA /* PetometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5159DF601C642D1A00EEBAFA /* PetometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetometerTests.swift; sourceTree = "<group>"; };
+		5159DF621C642D1A00EEBAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5159DF671C642D1A00EEBAFA /* PetometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5159DF6B1C642D1A00EEBAFA /* PetometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetometerUITests.swift; sourceTree = "<group>"; };
+		5159DF6D1C642D1A00EEBAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5159DF451C642D1A00EEBAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5159DF591C642D1A00EEBAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5159DF641C642D1A00EEBAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5159DF3F1C642D1A00EEBAFA = {
+			isa = PBXGroup;
+			children = (
+				5159DF4A1C642D1A00EEBAFA /* Petometer */,
+				5159DF5F1C642D1A00EEBAFA /* PetometerTests */,
+				5159DF6A1C642D1A00EEBAFA /* PetometerUITests */,
+				5159DF491C642D1A00EEBAFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5159DF491C642D1A00EEBAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5159DF481C642D1A00EEBAFA /* Petometer.app */,
+				5159DF5C1C642D1A00EEBAFA /* PetometerTests.xctest */,
+				5159DF671C642D1A00EEBAFA /* PetometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5159DF4A1C642D1A00EEBAFA /* Petometer */ = {
+			isa = PBXGroup;
+			children = (
+				5159DF4B1C642D1A00EEBAFA /* AppDelegate.swift */,
+				5159DF4D1C642D1A00EEBAFA /* ViewController.swift */,
+				5159DF4F1C642D1A00EEBAFA /* Main.storyboard */,
+				5159DF521C642D1A00EEBAFA /* Assets.xcassets */,
+				5159DF541C642D1A00EEBAFA /* LaunchScreen.storyboard */,
+				5159DF571C642D1A00EEBAFA /* Info.plist */,
+			);
+			path = Petometer;
+			sourceTree = "<group>";
+		};
+		5159DF5F1C642D1A00EEBAFA /* PetometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5159DF601C642D1A00EEBAFA /* PetometerTests.swift */,
+				5159DF621C642D1A00EEBAFA /* Info.plist */,
+			);
+			path = PetometerTests;
+			sourceTree = "<group>";
+		};
+		5159DF6A1C642D1A00EEBAFA /* PetometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5159DF6B1C642D1A00EEBAFA /* PetometerUITests.swift */,
+				5159DF6D1C642D1A00EEBAFA /* Info.plist */,
+			);
+			path = PetometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5159DF471C642D1A00EEBAFA /* Petometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5159DF701C642D1A00EEBAFA /* Build configuration list for PBXNativeTarget "Petometer" */;
+			buildPhases = (
+				5159DF441C642D1A00EEBAFA /* Sources */,
+				5159DF451C642D1A00EEBAFA /* Frameworks */,
+				5159DF461C642D1A00EEBAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Petometer;
+			productName = Petometer;
+			productReference = 5159DF481C642D1A00EEBAFA /* Petometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5159DF5B1C642D1A00EEBAFA /* PetometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5159DF731C642D1A00EEBAFA /* Build configuration list for PBXNativeTarget "PetometerTests" */;
+			buildPhases = (
+				5159DF581C642D1A00EEBAFA /* Sources */,
+				5159DF591C642D1A00EEBAFA /* Frameworks */,
+				5159DF5A1C642D1A00EEBAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5159DF5E1C642D1A00EEBAFA /* PBXTargetDependency */,
+			);
+			name = PetometerTests;
+			productName = PetometerTests;
+			productReference = 5159DF5C1C642D1A00EEBAFA /* PetometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5159DF661C642D1A00EEBAFA /* PetometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5159DF761C642D1A00EEBAFA /* Build configuration list for PBXNativeTarget "PetometerUITests" */;
+			buildPhases = (
+				5159DF631C642D1A00EEBAFA /* Sources */,
+				5159DF641C642D1A00EEBAFA /* Frameworks */,
+				5159DF651C642D1A00EEBAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5159DF691C642D1A00EEBAFA /* PBXTargetDependency */,
+			);
+			name = PetometerUITests;
+			productName = PetometerUITests;
+			productReference = 5159DF671C642D1A00EEBAFA /* PetometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5159DF401C642D1A00EEBAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hack4health;
+				TargetAttributes = {
+					5159DF471C642D1A00EEBAFA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5159DF5B1C642D1A00EEBAFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5159DF471C642D1A00EEBAFA;
+					};
+					5159DF661C642D1A00EEBAFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5159DF471C642D1A00EEBAFA;
+					};
+				};
+			};
+			buildConfigurationList = 5159DF431C642D1A00EEBAFA /* Build configuration list for PBXProject "Petometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5159DF3F1C642D1A00EEBAFA;
+			productRefGroup = 5159DF491C642D1A00EEBAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5159DF471C642D1A00EEBAFA /* Petometer */,
+				5159DF5B1C642D1A00EEBAFA /* PetometerTests */,
+				5159DF661C642D1A00EEBAFA /* PetometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5159DF461C642D1A00EEBAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5159DF561C642D1A00EEBAFA /* LaunchScreen.storyboard in Resources */,
+				5159DF531C642D1A00EEBAFA /* Assets.xcassets in Resources */,
+				5159DF511C642D1A00EEBAFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5159DF5A1C642D1A00EEBAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5159DF651C642D1A00EEBAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5159DF441C642D1A00EEBAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5159DF4E1C642D1A00EEBAFA /* ViewController.swift in Sources */,
+				5159DF4C1C642D1A00EEBAFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5159DF581C642D1A00EEBAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5159DF611C642D1A00EEBAFA /* PetometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5159DF631C642D1A00EEBAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5159DF6C1C642D1A00EEBAFA /* PetometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5159DF5E1C642D1A00EEBAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5159DF471C642D1A00EEBAFA /* Petometer */;
+			targetProxy = 5159DF5D1C642D1A00EEBAFA /* PBXContainerItemProxy */;
+		};
+		5159DF691C642D1A00EEBAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5159DF471C642D1A00EEBAFA /* Petometer */;
+			targetProxy = 5159DF681C642D1A00EEBAFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5159DF4F1C642D1A00EEBAFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5159DF501C642D1A00EEBAFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5159DF541C642D1A00EEBAFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5159DF551C642D1A00EEBAFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5159DF6E1C642D1A00EEBAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5159DF6F1C642D1A00EEBAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5159DF711C642D1A00EEBAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Petometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.Petometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5159DF721C642D1A00EEBAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Petometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.Petometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5159DF741C642D1A00EEBAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PetometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.PetometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petometer.app/Petometer";
+			};
+			name = Debug;
+		};
+		5159DF751C642D1A00EEBAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PetometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.PetometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petometer.app/Petometer";
+			};
+			name = Release;
+		};
+		5159DF771C642D1A00EEBAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PetometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.PetometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Petometer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5159DF781C642D1A00EEBAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PetometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.PetometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Petometer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5159DF431C642D1A00EEBAFA /* Build configuration list for PBXProject "Petometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5159DF6E1C642D1A00EEBAFA /* Debug */,
+				5159DF6F1C642D1A00EEBAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5159DF701C642D1A00EEBAFA /* Build configuration list for PBXNativeTarget "Petometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5159DF711C642D1A00EEBAFA /* Debug */,
+				5159DF721C642D1A00EEBAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5159DF731C642D1A00EEBAFA /* Build configuration list for PBXNativeTarget "PetometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5159DF741C642D1A00EEBAFA /* Debug */,
+				5159DF751C642D1A00EEBAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5159DF761C642D1A00EEBAFA /* Build configuration list for PBXNativeTarget "PetometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5159DF771C642D1A00EEBAFA /* Debug */,
+				5159DF781C642D1A00EEBAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5159DF401C642D1A00EEBAFA /* Project object */;
+}
