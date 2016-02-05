@@ -14,6 +14,10 @@
 		5159DF561C642D1A00EEBAFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5159DF541C642D1A00EEBAFA /* LaunchScreen.storyboard */; };
 		5159DF611C642D1A00EEBAFA /* PetometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DF601C642D1A00EEBAFA /* PetometerTests.swift */; };
 		5159DF6C1C642D1A00EEBAFA /* PetometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5159DF6B1C642D1A00EEBAFA /* PetometerUITests.swift */; };
+		5159DF7D1C647A0A00EEBAFA /* Running.png in Resources */ = {isa = PBXBuildFile; fileRef = 5159DF7C1C647A0A00EEBAFA /* Running.png */; };
+		5159DF811C647F7B00EEBAFA /* Automotive.png in Resources */ = {isa = PBXBuildFile; fileRef = 5159DF7E1C647F7B00EEBAFA /* Automotive.png */; };
+		5159DF821C647F7B00EEBAFA /* Sitting.png in Resources */ = {isa = PBXBuildFile; fileRef = 5159DF7F1C647F7B00EEBAFA /* Sitting.png */; };
+		5159DF831C647F7B00EEBAFA /* Walking.png in Resources */ = {isa = PBXBuildFile; fileRef = 5159DF801C647F7B00EEBAFA /* Walking.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		5159DF671C642D1A00EEBAFA /* PetometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5159DF6B1C642D1A00EEBAFA /* PetometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetometerUITests.swift; sourceTree = "<group>"; };
 		5159DF6D1C642D1A00EEBAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5159DF7C1C647A0A00EEBAFA /* Running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Running.png; path = ../../Resources/Images/Running.png; sourceTree = "<group>"; };
+		5159DF7E1C647F7B00EEBAFA /* Automotive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Automotive.png; path = ../../Resources/Images/Automotive.png; sourceTree = "<group>"; };
+		5159DF7F1C647F7B00EEBAFA /* Sitting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sitting.png; path = ../../Resources/Images/Sitting.png; sourceTree = "<group>"; };
+		5159DF801C647F7B00EEBAFA /* Walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Walking.png; path = ../../Resources/Images/Walking.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		5159DF4A1C642D1A00EEBAFA /* Petometer */ = {
 			isa = PBXGroup;
 			children = (
+				5159DF7A1C646F2F00EEBAFA /* Models */,
+				5159DF791C646EF400EEBAFA /* Resources */,
 				5159DF4B1C642D1A00EEBAFA /* AppDelegate.swift */,
 				5159DF4D1C642D1A00EEBAFA /* ViewController.swift */,
 				5159DF4F1C642D1A00EEBAFA /* Main.storyboard */,
@@ -123,6 +133,32 @@
 				5159DF6D1C642D1A00EEBAFA /* Info.plist */,
 			);
 			path = PetometerUITests;
+			sourceTree = "<group>";
+		};
+		5159DF791C646EF400EEBAFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5159DF7B1C64787F00EEBAFA /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5159DF7A1C646F2F00EEBAFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5159DF7B1C64787F00EEBAFA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5159DF801C647F7B00EEBAFA /* Walking.png */,
+				5159DF7C1C647A0A00EEBAFA /* Running.png */,
+				5159DF7F1C647F7B00EEBAFA /* Sitting.png */,
+				5159DF7E1C647F7B00EEBAFA /* Automotive.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +229,7 @@
 				TargetAttributes = {
 					5159DF471C642D1A00EEBAFA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8MH7K9WVU8;
 					};
 					5159DF5B1C642D1A00EEBAFA = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,9 +266,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5159DF811C647F7B00EEBAFA /* Automotive.png in Resources */,
+				5159DF831C647F7B00EEBAFA /* Walking.png in Resources */,
 				5159DF561C642D1A00EEBAFA /* LaunchScreen.storyboard in Resources */,
 				5159DF531C642D1A00EEBAFA /* Assets.xcassets in Resources */,
 				5159DF511C642D1A00EEBAFA /* Main.storyboard in Resources */,
+				5159DF7D1C647A0A00EEBAFA /* Running.png in Resources */,
+				5159DF821C647F7B00EEBAFA /* Sitting.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +438,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Petometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.Petometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +452,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Petometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.Petometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +529,7 @@
 				5159DF721C642D1A00EEBAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5159DF731C642D1A00EEBAFA /* Build configuration list for PBXNativeTarget "PetometerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +538,7 @@
 				5159DF751C642D1A00EEBAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5159DF761C642D1A00EEBAFA /* Build configuration list for PBXNativeTarget "PetometerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +547,7 @@
 				5159DF781C642D1A00EEBAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
